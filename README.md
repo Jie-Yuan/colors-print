@@ -10,7 +10,7 @@ cprint is a minimalist python library which gives you the possibility to print i
 pip install cprint
 
 ## Usage
-- **`_cprint`**
+- **`ccprint`**
 > 加强版
 ```python
 from cprint import _cprint
