@@ -1,9 +1,11 @@
 # coding: utf8
 #!/usr/bin/env python
-from .cprint import *
+from .cprint import cprint
+from .Cprint import Cprint
+
+_cprint = cprint
+cprint = Cprint().cprint()
 
 """
     This module give to possibility to print in color.
 """
-
-__version__ = "1.1"
