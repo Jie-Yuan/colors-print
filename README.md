@@ -13,14 +13,14 @@ pip install cprint
 - **`ccprint`**
 > 加强版
 ```python
-from cprint import _cprint
+from cprint import ccprint
 
-cprint('Hello Word')
+ccprint('Hello Word')
 ```
 
 - **`cprint`**
 ```python
-from cprint import _cprint
+from cprint import cprint
 
 cprint(arg) 							# WHITE
 cprint.ok(arg)							# BLUE
