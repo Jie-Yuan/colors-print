@@ -7,7 +7,9 @@ cprint is a minimalist python library which gives you the possibility to print i
 
 ## Install
 
+```sh
 pip install Colors-print
+```
 
 ## Usage
 - **`ccprint`**
