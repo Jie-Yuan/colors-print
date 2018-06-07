@@ -1,6 +1,6 @@
 # coding: utf8
 
-from .cprint import cprint
+from ._cprint import cprint
 from .Cprint import Cprint
 
 
