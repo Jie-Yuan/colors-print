@@ -4,8 +4,7 @@ from .cprint import cprint
 from .Cprint import Cprint
 
 
-_cprint = cprint
-cprint = Cprint().cprint()
+ccprint = Cprint().cprint()
 
 """
     This module give to possibility to print in color.
