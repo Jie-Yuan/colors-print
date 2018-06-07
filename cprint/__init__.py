@@ -1,7 +1,8 @@
 # coding: utf8
-#!/usr/bin/env python
+
 from .cprint import cprint
 from .Cprint import Cprint
+
 
 _cprint = cprint
 cprint = Cprint().cprint()
