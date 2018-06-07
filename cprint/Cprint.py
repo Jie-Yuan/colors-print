@@ -1,3 +1,5 @@
+# coding: utf8
+
 class Cprint(object):
     def __init__(self):
         self.foreground_color = {
