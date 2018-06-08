@@ -1,8 +1,9 @@
 # coding: utf8
 
 from .cprint import cprint
-from .myprint import ccprint
+from .myprint import Cprint
 
+ccprint = Cprint().cprint
 
 
 
