@@ -37,6 +37,9 @@ class Cprint(object):
         """
         print('\033[%s;%s;%sm%s\033[0m' % (mode, self.foreground_color[foreground], self.background_color[background], obj))
 
+        
+ccprint = Cprint().cprint
+
 
 if __name__ == '__main__':
     Cprint().cprint()
